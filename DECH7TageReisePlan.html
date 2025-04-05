@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>德国瑞士7日自驾游计划</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f7fa;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .day-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .day-header {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.4em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .day-content {
+            padding: 20px;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #3498db;
+        }
+        .event {
+            position: relative;
+            margin-bottom: 25px;
+        }
+        .event::before {
+            content: '';
+            position: absolute;
+            left: -38px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #3498db;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #3498db;
+        }
+        .time {
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        .action {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .location {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        .checkpoint {
+            background-color: #e8f4fc;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-top: 5px;
+            border-left: 3px solid #3498db;
+        }
+        .accommodation {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border-left: 3px solid #2ecc71;
+        }
+        .hotel-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+        .hotel-name {
+            font-weight: bold;
+        }
+        .hotel-details {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .map-link {
+            color: #2980b9;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .map-link:hover {
+            text-decoration: underline;
+        }
+        .duration {
+            color: #e67e22;
+            font-size: 0.9em;
+        }
+        .cost-info {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .paid {
+            color: #27ae60;
+        }
+        .pending {
+            color: #f39c12;
+        }
+        .to-pay {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>德国瑞士7日自驾游计划</h1>
+
+    <!-- Day 1 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 1 - 4月11日</span>
+            <span>海德堡</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">12:00</div>
+                    <div class="action">取车</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Avis/@51.2798218,6.7675424,17z/data=!3m2!4b1!5s0x47b8c82c62c7b613:0xe2c85b8e6bc4583d!4m6!3m5!1s0x47b8c9d5002513fb:0xbe6572e308f68aa7!8m2!3d51.2798185!4d6.7701227!16s%2Fg%2F1td7b7d5?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">杜塞机场</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">13:00</div>
+                    <div class="action">出发 <span class="duration">4h</span></div>
+                    <div class="location">杜塞 → <a href="https://www.google.com/maps/place/Parkplatz+Schloss+Heidelberg/@49.4106193,8.7127343,16z/data=!4m6!3m5!1s0x4797c1af4c04679d:0xa1f37b21b747c8b4!8m2!3d49.4108894!4d8.7197924!16s%2Fg%2F11gdk_40m6?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3" class="map-link" target="_blank">海德堡</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">17:00</div>
+                    <div class="action">到达 <span class="duration">1h</span></div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Heidelberg+Castle/@49.4106196,8.7153092,16z/data=!3m1!4b1!4m6!3m5!1s0x4797c100ca43db93:0x6d672e3649e97eea!8m2!3d49.4106196!4d8.7153092!16zL20vMDVkMHQ5?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">海德堡</a>
+                    </div>
+                    <div class="checkpoint">打卡：<a href="https://zh.wikipedia.org/zh-hans/%E6%B5%B7%E5%BE%B7%E5%A0%A1%E5%9F%8E%E5%A0%A1" class="map-link" target="_blank">海德堡城堡</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">18:00</div>
+                    <div class="action">check-in</div>
+                    <div class="location">海德堡B&B酒店</div>
+                </div>
+                <div class="event">
+                    <div class="time">19:00</div>
+                    <div class="action">晚饭</div>
+                </div>
+                <div class="accommodation">
+                    <div class="hotel-info">
+                        <span class="hotel-name">海德堡B&B酒店</span>
+                        <a href="https://www.google.com/maps/place/Rudolf-Diesel-Stra%C3%9Fe+7,+69115+Heidelberg/@49.3971749,8.6723008,17z/data=!3m1!4b1!4m6!3m5!1s0x4797c0db468cfabd:0xd1761831c1e04701!8m2!3d49.3971749!4d8.6748757!16s%2Fg%2F11ltc654jv?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDS" class="map-link" target="_blank">查看地图</a>
+                    </div>
+                    <div class="hotel-details">
+                        婴儿床: 不提供 | 加床: -
+                    </div>
+                    <div class="cost-info">
+                        早餐: €13.9 | 房费: <span class="to-pay">到付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 2 - 4月12日</span>
+            <span>特里贝格 / 蒂蒂湖</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">08:00</div>
+                    <div class="action">起床</div>
+                </div>
+                <div class="event">
+                    <div class="time">09:00</div>
+                    <div class="action">早饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">10:00</div>
+                    <div class="action">出发 <span class="duration">2.5-3h</span></div>
+                    <div class="location">海德堡 → <a href="https://www.google.com/maps/place/Schonachbach+27,+78136+Schonach+im+Schwarzwald/@48.147486,8.2386402,17z/data=!3m1!4b1!4m6!3m5!1s0x4790c3adcce46669:0x83d89c4611a280cd!8m2!3d48.147486!4d8.2412151!16s%2Fg%2F11c5q8lmhc?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSo" class="map-link" target="_blank">特里贝格</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">13:00</div>
+                    <div class="action">到达</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Schonachbach+27,+78136+Schonach+im+Schwarzwald/@48.147486,8.2386402,17z/data=!3m1!4b1!4m6!3m5!1s0x4790c3adcce46669:0x83d89c4611a280cd!8m2!3d48.147486!4d8.2412151!16s%2Fg%2F11c5q8lmhc?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSo" class="map-link" target="_blank">咕咕钟，特里贝格</a>
+                    </div>
+                    <div class="checkpoint">打卡：<a href="https://www.google.com/maps/place/Schonachbach+27,+78136+Schonach+im+Schwarzwald/@48.147486,8.2386402,17z/data=!3m1!4b1!4m6!3m5!1s0x4790c3adcce46669:0x83d89c4611a280cd!8m2!3d48.147486!4d8.2412151!16s%2Fg%2F11c5q8lmhc?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSo" class="map-link" target="_blank">世界最大咕咕钟</a>，<a href="https://www.google.com/maps/place/Kreuzstra%C3%9Fe+10,+78098+Triberg+im+Schwarzwald/@48.1301421,8.2290768,18z/data=!3m1!4b1!4m6!3m5!1s0x4790c259239555d5:0x298a63015e54d8f2!8m2!3d48.1301421!4d8.2303643!16s%2Fg%2F11bw420sg3?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIK" class="map-link" target="_blank">特里贝格瀑布</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">14:00</div>
+                    <div class="action">午饭</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Triberg+Waterfalls/@48.1293508,8.2279724,17.25z/data=!4m15!1m8!3m7!1s0x4790c2354309fcab:0x41f6bb7a5df8960!2s78098+Triberg!3b1!8m2!3d48.1301564!4d8.2324351!16zL20vMDZubTBi!3m5!1s0x4790c2f5f1435c49:0xecc197b03ff8ef0!8m2!3d48.1283833!4d8.2301745!16s%2Fm%2F05f63lm?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">特里贝格</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">15:00</div>
+                    <div class="action">出发</div>
+                </div>
+                <div class="event">
+                    <div class="time">16:00</div>
+                    <div class="action">到达 <span class="duration">1h</span></div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Badestelle+Titisee/@47.8992071,8.1427548,17z/data=!3m1!4b1!4m6!3m5!1s0x4790f15d3ba4c429:0xc9bdc2c6cccf8545!8m2!3d47.8992071!4d8.1453297!16s%2Fg%2F11gk43yy1n?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">蒂蒂湖</a>
+                    </div>
+                    <div class="checkpoint">打卡：<a href="https://www.google.de/search?q=%E8%92%82%E8%92%82%E6%B9%96&sca_esv=f0c6dc04cbd61ad9&sxsrf=AHTn8zrL_SV8p1bysRL5FZSqtcQ1gn9XPA%3A1743855377877&source=hp&ei=ER_xZ9e8M-u7i-gPzrW7wA0&iflsig=ACkRmUkAAAAAZ_EtIY4bpGLRyd5QmPshBJLQk6i6plkK&ved=0ahUKEwiXidjC78CMAxXr3QIHHc7aDtgQ4dUDCBo&uact=5&oq=%E8%92%82%E8%92%82%E6%B9%96&gs_lp=Egdnd3Mtd2l6IgnokoLokoLmuZYyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESIAJUOACWOsHcAF4AJABAJgBaqAB7QSqAQM0LjO4AQPIAQD4AQGYAgigAoMFqAIKwgIHECMYJxjqAsICDRAjGPAFGCcYyQIY6gLCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgsQLhiABBjRAxjHAcICERAuGIAEGJECGNEDGMcBGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICChAAGIAEGEMYigXCAgsQLhiABBjHARivAcICCBAuGIAEGNQCwgIOEC4YgAQY0QMY1AIYxwHCAggQLhiABBjLAcICCBAAGIAEGMsBmAMG8QX1UTWPx8EEj5IHAzUuM6AHok-yBwM0LjO4B_0E&sclient=gws-wiz" class="map-link" target="_blank">蒂蒂湖</a>，黑森林蛋糕/熏肉</div>
+                </div>
+                <div class="event">
+                    <div class="time">17:00</div>
+                    <div class="action">晚饭 <span class="duration">1-1.5h</span></div>
+                </div>
+                <div class="event">
+                    <div class="time">18:00</div>
+                    <div class="action">出发</div>
+                    <div class="location">蒂蒂湖 → <a href="https://www.google.com/maps/place/Hauptstra%C3%9Fe+23,+79793+Wut%C3%B6schingen/@47.6584514,8.3624581,17z/data=!3m1!4b1!4m6!3m5!1s0x4790644b7cfb242b:0xc2875154d02c3813!8m2!3d47.6584514!4d8.365033!16s%2Fg%2F11c2hfr7rs?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoJ" class="map-link" target="_blank">武特欣根</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">19:00</div>
+                    <div class="action">到达</div>
+                    <div class="action">check-in</div>
+                </div>
+                <div class="accommodation">
+                    <div class="hotel-info">
+                        <span class="hotel-name">武特欣根酒店 Landgasthof Ochsen</span>
+                        <a href="https://www.google.com/maps/place/Hauptstra%C3%9Fe+23,+79793+Wut%C3%B6schingen/@47.6584514,8.3624581,17z/data=!3m1!4b1!4m6!3m5!1s0x4790644b7cfb242b:0xc2875154d02c3813!8m2!3d47.6584514!4d8.365033!16s%2Fg%2F11c2hfr7rs?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoJ" class="map-link" target="_blank">查看地图</a>
+                    </div>
+                    <div class="hotel-details">
+                        婴儿床: 待确认 | 加床: €10
+                    </div>
+                    <div class="cost-info">
+                        早餐: €8 | 房费: <span class="to-pay">到付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 3 - 4月13日</span>
+            <span>苏黎世</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">08:00</div>
+                    <div class="action">起床</div>
+                </div>
+                <div class="event">
+                    <div class="time">09:00</div>
+                    <div class="action">早饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">10:00</div>
+                    <div class="action">出发 <span class="duration">2-3h</span></div>
+                    <div class="location">武特欣根 → <a href="https://www.google.com/maps/place/Zurich" class="map-link" target="_blank">苏黎世</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">11:00</div>
+                    <div class="action">到达</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Parkhaus+Talgarten/@47.3720385,8.535297,19z/data=!3m1!4b1!4m6!3m5!1s0x47900a0403cba281:0xec8a7f5afb4112fb!8m2!3d47.3720385!4d8.5359407!16s%2Fg%2F1td5_n1r?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">苏黎世</a>
+                    </div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://www.google.de/search?q=%E8%8B%8F%E9%BB%8E%E4%B8%96%E6%B9%96&sca_esv=f0c6dc04cbd61ad9&sxsrf=AHTn8zoX4N2AkYb16L1Y05fOtZ6Aehk12A%3A1743855522892&source=hp&ei=oh_xZ5XgM7Xui-gPyPeo2QU&iflsig=ACkRmUkAAAAAZ_EtsvkNcuSpJ3rnQAMvIVuCiWSKpQDo&ved=0ahUKEwiVueqH8MCMAxU19wIHHcg7KlsQ4dUDCBo&uact=5&oq=%E8%8B%8F%E9%BB%8E%E4%B8%96%E6%B9%96&gs_lp=Egdnd3Mtd2l6Igzoi4_pu47kuJbmuZYyChAuGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBxAAGIAEGApI-C5Q0gNYxy1wBXgAkAEBmAGHAaABuBCqAQQxNy42uAEDyAEA-AEBmAIboAL9D6gCCsICBxAjGCcY6gLCAg0QIxjwBRgnGMkCGOoCwgIKECMYgAQYJxiKBcICBBAjGCfCAgsQLhiABBiRAhiKBcICCxAuGIAEGNEDGMcBwgIIEC4YgAQY1ALCAgUQLhiABMICCxAuGIAEGMcBGK8BwgIIEAAYgAQYywHCAg0QLhiABBjHARgKGK8BwgITEC4YgAQYxwEYmAUYmQUYChivAcICCBAAGIAEGKIEwgIFEAAY7wXCAgcQABiABBgNwgIHEC4YgAQYCsICCBAuGIAEGMsBwgIOEC4YgAQY0QMYxwEYywHCAg4QLhiABBjHARjLARivAcICCBAAGKIEGIkFwgIKEAAYgAQYQxiKBcICEBAuGIAEGEMYxwEYigUYrwHCAgcQLhiABBgMwgIHEAAYgAQYDJgDBfEFbPqBX8cHUYuSBwQxOC45oAfGiQKyBwQxMy45uAfvDw&sclient=gws-wiz" class="map-link" target="_blank">苏黎世湖</a>，
+                        <a href="https://www.google.com/maps/place/Bahnhofstrasse,+8001+Z%C3%BCrich,+Switzerland/@47.371732,8.5359757,17z/data=!3m1!4b1!4m6!3m5!1s0x47900a072cbc7295:0xce1f68e4ec56fc65!8m2!3d47.3717284!4d8.538556!16zL20vMDc3bGNk?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">班霍夫大街</a>，
+                        <a href="https://www.google.com/maps/place/Fraum%C3%BCnster+Church/@47.3697885,8.5382528,17z/data=!3m1!4b1!4m6!3m5!1s0x47900a00864f7ab7:0xadee790c683facbe!8m2!3d47.3697849!4d8.5408331!16zL20vMDhtaGx0?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">圣母大教堂</a>，
+                        <a href="https://www.google.de/search?q=%E8%8B%8F%E9%BB%8E%E4%B8%96%E8%80%81%E5%9F%8E%E5%8C%BA&sca_esv=f0c6dc04cbd61ad9&sxsrf=AHTn8zqsRirAsTvMBzic14OWCFl4G7Oh4w%3A1743855530009&ei=qh_xZ5spk7SL6A_r-4HQCA&ved=0ahUKEwibpp-L8MCMAxUT2gIHHet9AIoQ4dUDCBA&uact=5&oq=%E8%8B%8F%E9%BB%8E%E4%B8%96%E8%80%81%E5%9F%8E%E5%8C%BA&gs_lp=Egxnd3Mtd2l6LXNlcnAiEuiLj-m7juS4luiAgeWfjuWMujIGEAAYBxgeMgUQLhiABDIFEAAY7wUyBRAAGO8FMgUQABjvBUiLFVAAWIITcAB4AZABAJgBYqAB5QWqAQIxMLgBA8gBAPgBAvgBAZgCCKAC1wTCAgUQABiABMICCBAAGIAEGKIEwgIHEC4YgAQYDMICFhAuGIAEGAwYlwUY3AQY3gQY4ATYAQGYAwC6BgYIARABGBSSBwE4oAerILIHATi4B9cE&sclient=gws-wiz-serp" class="map-link" target="_blank">老城区</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">12:00</div>
+                    <div class="action">午饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">14:00</div>
+                    <div class="action">出发</div>
+                    <div class="location">苏黎世 → <a href="https://www.google.com/maps/place/Parkhaus+Schweizerhof/@47.0541997,8.3073922,17z/data=!3m1!4b1!4m6!3m5!1s0x478ffb995bef94a5:0x562503491904cf79!8m2!3d47.0541997!4d8.3099671!16s%2Fg%2F11bxc5hhhf?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%" class="map-link" target="_blank">卢塞恩</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">15:00</div>
+                    <div class="action">到达</div>
+                    <div class="action">check-in <span class="duration">3h</span></div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Parkhaus+Schweizerhof/@47.0541997,8.3073922,17z/data=!3m1!4b1!4m6!3m5!1s0x478ffb995bef94a5:0x562503491904cf79!8m2!3d47.0541997!4d8.3099671!16s%2Fg%2F11bxc5hhhf?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%" class="map-link" target="_blank">卢塞恩</a>
+                    </div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://www.google.com/maps/place/Chapel+Bridge/@47.0516525,8.3049548,17z/data=!3m1!4b1!4m6!3m5!1s0x478ffb9f30ccc2e5:0x20b010d3c1d20e37!8m2!3d47.0516489!4d8.3075351!16zL20vMDV5d3Bk?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">卡佩尔桥</a>，
+                        <a href="https://www.google.com/maps/place/Lion+Monument/@47.0584039,8.3083496,17z/data=!3m1!4b1!4m6!3m5!1s0x478ffb9b5705eb8b:0x627afecb728fc384!8m2!3d47.0584263!4d8.3109151!16s%2Fm%2F03qfw5r?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">狮子纪念碑</a>，
+                        <a href="https://www.google.de/search?q=%E5%8D%A2%E5%A1%9E%E6%81%A9%E6%B9%96&sca_esv=f0c6dc04cbd61ad9&sxsrf=AHTn8zpOQJaHHJOjXD61GKtGG-StmeFlbg%3A1743855934780&source=hp&ei=PiHxZ8eWLc2Vi-gPtOvnuQQ&iflsig=ACkRmUkAAAAAZ_EvThAtbWDTEuWluVHnoZ8ZZZMqD8bN&ved=0ahUKEwjHrZ7M8cCMAxXNygIHHbT1OUcQ4dUDCBo&uact=5&oq=%E5%8D%A2%E5%A1%9E%E6%81%A9%E6%B9%96&gs_lp=Egdnd3Mtd2l6IgzljaLloZ7mganmuZYyBRAuGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIIEAAYgAQYogQyBRAAGO8FMgUQABjvBTIGEAAYBRgeMgUQABjvBUj6C1DiAljiAnABeACQAQCYAUSgAUSqAQExuAEDyAEA-AEC-AEBmAICoAJLqAIKwgIHECMYJxjqApgDBfEF-o2yulQTUKySBwEyoAeZBbIHATG4B0Y&sclient=gws-wiz" class="map-link" target="_blank">卢塞恩湖</a>，
+                        <a href="https://www.google.com/maps/place/Museggmauer/@47.054751,8.3028828,17z/data=!3m1!4b1!4m6!3m5!1s0x478ffb9e7fa2b0ff:0xa35ebf242217ebcf!8m2!3d47.0547474!4d8.3054631!16s%2Fg%2F121sr32h?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">穆塞格城墙</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">17:30</div>
+                    <div class="action">晚饭 <span class="duration">1.5h</span></div>
+                </div>
+                <div class="event">
+                    <div class="time">19:00</div>
+                    <div class="action">出发</div>
+                </div>
+                <div class="event">
+                    <div class="time">19:30</div>
+                    <div class="action">check-in</div>
+                </div>
+                <div class="accommodation">
+                    <div class="hotel-info">
+                        <span class="hotel-name">埃梅滕西布里克霍恩酒店</span>
+                        <a href="https://www.google.com/maps/place/Seeblick+H%C3%B6henhotel/@46.9593665,8.5194982,18z/data=!4m10!3m9!1s0x47855a1935eb3193:0x822ba8202ab9572c!5m3!1s2025-04-14!4m1!1i2!8m2!3d46.9593665!4d8.5207857!16s%2Fg%2F1tmg5dr4?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDE" class="map-link" target="_blank">查看地图</a>
+                    </div>
+                    <div class="hotel-details">
+                        婴儿床: 待确认 | 加床: €10
+                    </div>
+                    <div class="cost-info">
+                        早餐: <span class="paid">包含</span> | 房费: <span class="to-pay">到付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 4 - 4月14日</span>
+            <span>卢塞恩 / 龙疆湖</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">08:00</div>
+                    <div class="action">起床</div>
+                </div>
+                <div class="event">
+                    <div class="time">09:00</div>
+                    <div class="action">早饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">10:00</div>
+                    <div class="action">出发 <span class="duration">1h</span></div>
+                    <div class="location">埃梅滕 → <a href="https://www.google.com/maps/place/Parkplatz+Lopp/@46.7826342,8.1529376,17z/data=!3m1!4b1!4m6!3m5!1s0x478f938e48a26c39:0x929b7e33ee0d35b7!8m2!3d46.7826342!4d8.1555125!16s%2Fg%2F11gxn09xmq?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">龙疆湖</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">11:00</div>
+                    <div class="action">到达</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Parkplatz+Lopp/@46.7826342,8.1529376,17z/data=!3m1!4b1!4m6!3m5!1s0x478f938e48a26c39:0x929b7e33ee0d35b7!8m2!3d46.7826342!4d8.1555125!16s%2Fg%2F11gxn09xmq?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">龙疆湖</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">12:00</div>
+                    <div class="action">出发</div>
+                    <div class="location">龙疆湖 → <a href="https://www.google.com/maps/place/B%C3%A4renparking+Interlaken+AG/@46.685009,7.8503677,17z/data=!3m1!4b1!4m6!3m5!1s0x478fa49b18a9c1d7:0x5b7b1bf5fcdd426d!8m2!3d46.685009!4d7.8529426!16s%2Fg%2F1ptyg4n3v?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAF" class="map-link" target="_blank">因特拉肯</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">13:00</div>
+                    <div class="action">到达</div>
+                    <div class="action">午饭</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/B%C3%A4renparking+Interlaken+AG/@46.685009,7.8503677,17z/data=!3m1!4b1!4m6!3m5!1s0x478fa49b18a9c1d7:0x5b7b1bf5fcdd426d!8m2!3d46.685009!4d7.8529426!16s%2Fg%2F1ptyg4n3v?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAF" class="map-link" target="_blank">因特拉肯</a>
+                    </div>
+                    <div class="checkpoint">打卡：<a href="https://www.google.com/maps/place/St.+Beatus+Cave+Parking/@46.6836793,7.7800754,18z/data=!3m1!4b1!4m6!3m5!1s0x478fa57a6ed15e9b:0x95c2dc357a8103d3!8m2!3d46.6836793!4d7.7813629!16s%2Fg%2F11cs255zbx?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3" class="map-link" target="_blank">贝阿滕贝格洞穴/瀑布</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">14:00</div>
+                    <div class="action">洞穴瀑布</div>
+                </div>
+                <div class="event">
+                    <div class="time">17:00</div>
+                    <div class="action">check-in</div>
+                </div>
+                <div class="event">
+                    <div class="time">18:00</div>
+                    <div class="action">晚饭 <span class="duration">1.5h</span></div>
+                    <div class="checkpoint">打卡：<a href="https://www.google.com/maps/place/Spiez,+Switzerland/@46.6904921,7.6715491,15.5z/data=!4m6!3m5!1s0x478fadd623415365:0x3d8e3909f94b4d91!8m2!3d46.6884826!4d7.6791524!16zL20vMDJ6M3Iw?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">施皮茨小镇</a></div>
+                </div>
+                <div class="accommodation">
+                    <div class="hotel-info">
+                        <span class="hotel-name">阿尔卑斯玫瑰酒店及花园</span>
+                        <a href="https://www.google.com/maps/place/Alpenrose+Hotel+and+Gardens/@46.664878,7.8642671,17z/data=!4m10!3m9!1s0x478fa38446d3a42f:0xd9b9947bcadc8d00!5m3!1s2025-04-14!4m1!1i2!8m2!3d46.664878!4d7.866842!16s%2Fg%2F1tm67v8v?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDE" class="map-link" target="_blank">查看地图</a>
+                    </div>
+                    <div class="hotel-details">
+                        婴儿床: 已确认 | 加床: -
+                    </div>
+                    <div class="cost-info">
+                        早餐: <span class="paid">包含</span> | 房费: <span class="paid">已付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Day 5 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 5 - 4月15日</span>
+            <span>因特拉肯 / 劳特布龙嫩 / 少女峰 / 格林德瓦</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">07:00</div>
+                    <div class="action">起床</div>
+                </div>
+                <div class="event">
+                    <div class="time">08:00</div>
+                    <div class="action">早饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">09:00</div>
+                    <div class="action">出发</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Parkplatz/@46.690065,7.8710429,17z/data=!4m6!3m5!1s0x478fa360a0a46c83:0x5e07ffe19dc823aa!8m2!3d46.6904163!4d7.8712612!16s%2Fg%2F11g9drjff8?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">因特拉肯东站</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">11:00</div>
+                    <div class="action">到达 <span class="duration">2h</span></div>
+                    <div class="location">
+                        <a href="https://zh.wikipedia.org/zh-hans/%E5%B0%91%E5%A5%B3%E5%B3%B0" class="map-link" target="_blank">少女峰</a>
+                    </div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://zh.wikipedia.org/zh-hans/%E6%A0%BC%E6%9E%97%E5%BE%B7%E5%B0%94%E7%93%A6%E5%B0%94%E5%BE%B7" class="map-link" target="_blank">格林德瓦</a>，
+                        <a href="https://zh.wikipedia.org/zh-hans/%E5%8A%B3%E7%89%B9%E5%B8%83%E4%BC%A6%E5%AB%A9" class="map-link" target="_blank">劳特布龙嫩</a>，
+                        <a href="https://zh.wikipedia.org/zh-hans/%E5%B0%91%E5%A5%B3%E5%B3%B0" class="map-link" target="_blank">少女峰</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">13:00</div>
+                    <div class="action">山上午饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">15:00</div>
+                    <div class="action">出发</div>
+                    <div class="location">少女峰 → <a href="https://www.google.com/maps/place/Parkplatz/@46.690065,7.8710429,17z/data=!4m6!3m5!1s0x478fa360a0a46c83:0x5e07ffe19dc823aa!8m2!3d46.6904163!4d7.8712612!16s%2Fg%2F11g9drjff8?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">因特拉肯</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">16:30</div>
+                    <div class="action">到达</div>
+                    <div class="action">出发 <span class="duration">1-1.5h</span></div>
+                    <div class="location">因特拉肯 → <a href="https://www.google.com/maps/place/ibis+budget+Bern+Expo/@46.9586361,7.4615614,17z/data=!4m10!3m9!1s0x478e39a7ef48c417:0x743480e831891798!5m3!1s2025-04-14!4m1!1i2!8m2!3d46.9586361!4d7.4641363!16s%2Fg%2F11qrxvt1bs?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEw" class="map-link" target="_blank">伯尔尼</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">17:30</div>
+                    <div class="action">到达</div>
+                    <div class="action">check-in</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/ibis+budget+Bern+Expo/@46.9586361,7.4615614,17z/data=!4m10!3m9!1s0x478e39a7ef48c417:0x743480e831891798!5m3!1s2025-04-14!4m1!1i2!8m2!3d46.9586361!4d7.4641363!16s%2Fg%2F11qrxvt1bs?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEw" class="map-link" target="_blank">伯尔尼</a>
+                    </div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://www.google.com/maps/place/Einstein+House/@46.947807,7.4474212,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39c389341cdb:0x95387d15f5115b90!8m2!3d46.9478034!4d7.4500015!16s%2Fm%2F06zqw5w?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">爱因斯坦之屋</a>，
+                        <a href="https://www.google.com/maps/place/Cathedral+of+Bern/@46.9472401,7.4489454,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39c48471b26d:0x1edf8ec122283c98!8m2!3d46.9472365!4d7.4515257!16zL20vMDluODhr?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">伯尔尼大教堂</a>，
+                        <a href="https://www.google.com/maps/place/Zytglogge/@46.9480334,7.4452174,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39c154895cd9:0x3214baf7e62eb046!8m2!3d46.9480298!4d7.4477977!16zL20vMDQybHRo?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">时钟塔</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">19:00</div>
+                    <div class="action">晚饭 <span class="duration">1.5h</span></div>
+                </div>
+                <div class="accommodation">
+                    <div class="hotel-info">
+                        <span class="hotel-name">伯尔尼博览会宜必思快捷酒店</span>
+                        <a href="https://www.google.com/maps/place/ibis+budget+Bern+Expo/@46.9586361,7.4615614,17z/data=!4m10!3m9!1s0x478e39a7ef48c417:0x743480e831891798!5m3!1s2025-04-14!4m1!1i2!8m2!3d46.9586361!4d7.4641363!16s%2Fg%2F11qrxvt1bs?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEw" class="map-link" target="_blank">查看地图</a>
+                    </div>
+                    <div class="hotel-details">
+                        婴儿床: 待定 | 加床: 免费
+                    </div>
+                    <div class="cost-info">
+                        早餐: €15 | 房费: <span class="pending">部分已付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Day 6 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 6 - 4月16日</span>
+            <span>伯尔尼 / 科尔马</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">08:00</div>
+                    <div class="action">起床</div>
+                </div>
+                <div class="event">
+                    <div class="time">09:00</div>
+                    <div class="action">早饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">10:00</div>
+                    <div class="action">伯尔尼老城区 <span class="duration">1h-1.5h</span></div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://zh.wikipedia.org/zh-hans/%E4%BC%AF%E5%B0%94%E5%B0%BC%E8%80%81%E5%9F%8E" class="map-link" target="_blank">伯尔尼老城区</a>，
+                        <a href="https://zh.wikipedia.org/zh-hans/%E6%97%B6%E9%92%9F%E5%A1%94_(%E4%BC%AF%E5%B0%94%E5%B0%BC)" class="map-link" target="_blank">钟楼</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">11:30</div>
+                    <div class="action">出发 <span class="duration">3h</span></div>
+                    <div class="location">伯尔尼 → <a href="https://www.google.com/maps/place/Colmar" class="map-link" target="_blank">科尔马</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">14:30</div>
+                    <div class="action">到达</div>
+                    <div class="action">午饭</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Parking+de+la+Montagne+Verte/@48.0756536,7.360627,17z/data=!3m1!4b1!4m6!3m5!1s0x479165e4543c0d39:0x87d47b1f8b902a18!8m2!3d48.0756536!4d7.3632019!16s%2Fg%2F1xgrlw5s?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw" class="map-link" target="_blank">科尔马</a>
+                    </div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://www.google.com/maps/place/La+Petite+Venise/@48.0739831,7.3547067,17z/data=!3m1!4b1!4m6!3m5!1s0x479165ef5006a63d:0xe758095d72e39015!8m2!3d48.0739795!4d7.357287!16s%2Fg%2F15dpc73c?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">小威尼斯</a>，
+                        <a href="https://www.google.com/maps/place/Maison+Pfister/@48.0767187,7.3555836,17z/data=!3m1!4b1!4m6!3m5!1s0x4791657e4c821395:0x7641813bb2966519!8m2!3d48.0767151!4d7.3581639!16s%2Fg%2F11rk5l7w1v?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">科尔马老城</a>，
+                        <a href="https://www.google.com/maps/place/Coll%C3%A9giale+Saint-Martin+de+Colmar/@48.0772981,7.3555291,17z/data=!3m1!4b1!4m6!3m5!1s0x479165e6e80136a9:0x6999722f29357c4f!8m2!3d48.0772945!4d7.3581094!16s%2Fm%2F09gq0xj?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">圣马丁大教堂</a>，
+                        <a href="https://www.google.com/maps/place/%E9%9C%8D%E7%88%BE%E7%9A%84%E7%A7%BB%E5%8B%95%E5%9F%8E%E5%A0%A1/@48.0767583,7.3555892,17z/data=!3m1!4b1!4m6!3m5!1s0x479165cd078c8825:0x979ac30c462b636a!8m2!3d48.0767547!4d7.3581695!16s%2Fg%2F11khzckm26?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">普菲斯特屋</a>，
+                        <a href="https://www.google.com/maps/place/Statue+de+la+Libert%C3%A9/@48.1009225,7.3462305,14.5z/data=!4m6!3m5!1s0x479165ef5006a63d:0xa257efabc65386ec!8m2!3d48.1083333!4d7.3636111!16s%2Fg%2F11h3g3shwf?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">科尔马自由女神像</a>，
+                        <a href="https://www.google.com/maps/place/Pont+Rue+des+Ecoles+-+best+photo+spot/@48.0743128,7.3571488,17z/data=!3m1!4b1!4m6!3m5!1s0x479165be322b30a3:0x3a46941aac389c08!8m2!3d48.0743092!4d7.3597291!16s%2Fg%2F11p6_w2z4z?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">生态桥街</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">17:30</div>
+                    <div class="action">晚饭 <span class="duration">1.5h</span></div>
+                </div>
+                <div class="event">
+                    <div class="time">19:00</div>
+                    <div class="action">出发</div>
+                    <div class="location">科尔马 → <a href="https://www.google.com/maps/place/Ciarus/@48.5893725,7.7468065,19z/data=!4m10!3m9!1s0x4796c8455f904821:0x57fa95064bb134dc!5m3!1s2025-04-14!4m1!1i2!8m2!3d48.5893725!4d7.7474502!16s%2Fg%2F1hg4vb4sw?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3" class="map-link" target="_blank">斯特拉斯堡</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">20:00</div>
+                    <div class="action">到达</div>
+                    <div class="action">check-in</div>
+                </div>
+                <div class="accommodation">
+                    <div class="hotel-info">
+                        <span class="hotel-name">斯特拉斯堡Ciarus酒店</span>
+                        <a href="https://www.google.com/maps/place/Ciarus/@48.5893725,7.7468065,19z/data=!4m10!3m9!1s0x4796c8455f904821:0x57fa95064bb134dc!5m3!1s2025-04-14!4m1!1i2!8m2!3d48.5893725!4d7.7474502!16s%2Fg%2F1hg4vb4sw?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3" class="map-link" target="_blank">查看地图</a>
+                    </div>
+                    <div class="hotel-details">
+                        婴儿床: 已确认 | 加床: 免费
+                    </div>
+                    <div class="cost-info">
+                        早餐: €12.5 | 房费: <span class="pending">部分已付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Day 7 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 7 - 4月17日</span>
+            <span>斯特拉斯堡 / 卢森堡</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">08:00</div>
+                    <div class="action">起床</div>
+                </div>
+                <div class="event">
+                    <div class="time">09:00</div>
+                    <div class="action">早饭</div>
+                </div>
+                <div class="event">
+                    <div class="time">10:00</div>
+                    <div class="action">斯特拉斯堡 <span class="duration">2h</span></div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://www.google.com/maps/place/Palais+du+Rhin/@48.5863063,7.7471004,15.5z/data=!4m6!3m5!1s0x4796c850e6a0f3c9:0xe2ba7257ec09823!8m2!3d48.5875353!4d7.752903!16s%2Fm%2F0270gpy?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">莱茵宫</a>，
+                        <a href="https://www.google.com/maps/place/Place+Kl%C3%A9ber/@48.5835446,7.7411456,16z/data=!3m1!4b1!4m6!3m5!1s0x4796c84dc105530d:0xca417f6e8a32042a!8m2!3d48.5835411!4d7.7457536!16s%2Fm%2F03c7g_6?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">克勒贝尔广场</a>，
+                        <a href="https://www.google.com/maps/place/Petite-France,+67000+Strasbourg,+France/@48.580695,7.7387215,17z/data=!3m1!4b1!4m6!3m5!1s0x4796c84d2c91809d:0x4c4ea65d7eec2f69!8m2!3d48.5811142!4d7.7415109!16zL20vMDMzNzBw?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">小法兰西</a>，
+                        <a href="https://www.google.com/maps/place/Barrage+Vauban/@48.5796169,7.7354485,17z/data=!3m1!4b1!4m6!3m5!1s0x4796c9b4cece3f43:0xa2ad7688a014153e!8m2!3d48.5796134!4d7.7380288!16zL20vMGZxZ3lf?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">沃邦拦河坝</a>，
+                        <a href="https://www.google.com/maps/place/Cath%C3%A9drale+Notre-Dame-de-Strasbourg/@48.5818834,7.7484545,17z/data=!3m2!4b1!5s0x4796c8530e387c0b:0x6333dca73b955345!4m6!3m5!1s0x4796c85253398843:0xe7152777f55e2738!8m2!3d48.5818799!4d7.7510348!16zL20vMDRqNjc2?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">大教堂</a>，
+                        <a href="https://www.google.com/maps/place/Palais+Rohan/@48.5808431,7.7499542,17z/data=!3m2!4b1!5s0x4796c8537bcb6eab:0x1a29581bddb1b60e!4m6!3m5!1s0x4796c9bc2572cdef:0xc3eef3b73fee8fcd!8m2!3d48.5808396!4d7.7525345!16s%2Fg%2F11vlhfnwm5?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">罗昂宫</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">12:00</div>
+                    <div class="action">出发 <span class="duration">3h</span></div>
+                    <div class="location">斯特拉斯堡 → <a href="https://www.google.com/maps/place/Luxembourg" class="map-link" target="_blank">卢森堡</a></div>
+                </div>
+                <div class="event">
+                    <div class="time">15:00</div>
+                    <div class="action">到达</div>
+                    <div class="action">午饭</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/Parking+Guillaume/@49.6102712,6.127379,17z/data=!3m1!4b1!4m6!3m5!1s0x479548d34f3d74bd:0xec8d8db262931ea2!8m2!3d49.6102678!4d6.1299593!16s%2Fg%2F11cnd5rv4p?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">卢森堡</a>
+                    </div>
+                    <div class="checkpoint">打卡：
+                        <a href="https://baike.baidu.com/item/%E5%8D%A2%E6%A3%AE%E5%A0%A1%E5%9F%8E%E7%9A%84%E8%80%81%E5%9F%8E%E5%8C%BA%E5%92%8C%E9%98%B2%E5%BE%A1%E5%B7%A5%E4%BA%8B/9434732" class="map-link" target="_blank">卢森堡市旧城区和防御工事</a>，
+                        <a href="https://www.google.com/maps/place/Cathedral+Notre-Dame+of+Luxembourg/@49.6097517,6.1289979,17z/data=!3m1!4b1!4m6!3m5!1s0x479548d4a73987f1:0x8d80f4f640a826c6!8m2!3d49.6097483!4d6.1315782!16zL20vMGMyemN3?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">圣母大教堂</a>，
+                        <a href="https://www.google.com/maps/place/Pont+Adolphe/@49.6083565,6.1244374,17z/data=!3m1!4b1!4m6!3m5!1s0x479548d45ff9e7db:0xfd95d465cf3071ce!8m2!3d49.6083531!4d6.1270177!16zL20vMGZ5czRw?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">阿道夫桥</a>，
+                        <a href="https://www.google.com/maps/place/Scenic+Corridor/@49.6091189,6.1289628,16.75z/data=!4m6!3m5!1s0x479548d290d87cb7:0x6cd935930420b68!8m2!3d49.6089406!4d6.1339911!16s%2Fg%2F11c765h5ht?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">卢森堡风景走廊</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">18:00</div>
+                    <div class="action">晚饭 <span class="duration">1.5h</span></div>
+                </div>
+                <div class="event">
+                    <div class="time">19:30</div>
+                    <div class="action">返程</div>
+                </div>
+                <div class="accommodation">
+                    <div class="hotel-info">
+                        <span class="hotel-name">回家</span>
+                        <a href="https://www.google.com/maps/place/Elfgenweg+14,+40547+D%C3%BCsseldorf/@51.2464135,6.7213167,16z/data=!3m1!4b1!4m6!3m5!1s0x47b8b672363140ed:0x97f4d92e29ea4144!8m2!3d51.2464102!4d6.723897!16s%2Fg%2F11c1xybg3n?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class="map-link" target="_blank">查看地图</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Day 8 -->
+    <div class="day-container">
+        <div class="day-header">
+            <span>Day 8 - 4月18日</span>
+            <span>还车</span>
+        </div>
+        <div class="day-content">
+            <div class="timeline">
+                <div class="event">
+                    <div class="time">09:00</div>
+                    <div class="action">到达</div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/D%C3%BCsseldorf+Airport" class="map-link" target="_blank">杜塞机场</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">10:00</div>
+                    <div class="action">还车</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
